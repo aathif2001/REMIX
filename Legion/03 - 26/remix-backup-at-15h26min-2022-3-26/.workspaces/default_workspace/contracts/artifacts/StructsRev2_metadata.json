@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Card_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_Card_Number",
+						"type": "uint256"
+					}
+				],
+				"name": "AddCardDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Type_The_Index",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Card_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Card_Number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Structs1.sol": "StructsRev2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Structs1.sol": {
+			"keccak256": "0x0b436d18ec11d34b7bc39064ab2f6b26976d146282cceb97e02e2563c200ff89",
+			"urls": [
+				"bzz-raw://f4646633b16a49c2754ab9946176518f5e79481713b55cf9858a2b7eb29944d8",
+				"dweb:/ipfs/QmXfSatR9qvkjPeqFTXa7qe8Xj7QWamiyFJUeX3HpgDGkq"
+			]
+		}
+	},
+	"version": 1
+}
